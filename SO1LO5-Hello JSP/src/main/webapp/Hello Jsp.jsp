@@ -7,14 +7,25 @@
 <title>Hello JSP</title>
 </head>
 <body>
-<h1>Hello JSP</h1>
-<%! public int c=10; %>
-<%= c %>
-<% out.print("</br>"); %>
 <%! String hello(){
 return("hello welcome");
 }
 %>
-<%= hello() %>
+
+<%
+int x=67;
+/*if (x>45){
+	out.print("x is less than 45 ");
+}else{
+	out.print("x is not less than 45");
+}   */
+out.print("comment");  
+
+%>
+
+<!-- <% response.sendRedirect("http://google.com"); %>  -->   <% //this will give google webpage in output%>
+<%-- <% response.sendRedirect("http://google.com"); %>  --%>
+<% out.print("comment");   %>
+<!-- out.print("comment");  -->
 </body>
 </html>

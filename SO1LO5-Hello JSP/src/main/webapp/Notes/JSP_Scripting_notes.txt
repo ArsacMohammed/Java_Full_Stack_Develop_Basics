@@ -32,3 +32,14 @@ return("hello welcome");
 }
 %>
 <%= hello %>
+
+
+
+
+
+The comment Scipting element :
+
+	In block comment in java like /* */ is used only inside the scriptlet element <% ...%> 
+	<!-- out.print("comment");  -->    this will only prevent the printing part and if a method is called it will execute the code (like redirect to an another page.)
+	<!-- <% response.sendRedirect("http://google.com"); %>  -->  in this since there is no print ,it willexecute the code
+	but to avoid and makeit as a comment use <%-- <% response.sendRedirect("http://google.com"); %>  --%>
