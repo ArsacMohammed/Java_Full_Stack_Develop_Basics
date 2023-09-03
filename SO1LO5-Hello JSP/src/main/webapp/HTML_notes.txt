@@ -1,0 +1,5 @@
+HTML Notes:
+
+<br>.....</br>  --- line break
+<p>......</p>   --- paragraph
+<h1>.....</h1>  --- heading 

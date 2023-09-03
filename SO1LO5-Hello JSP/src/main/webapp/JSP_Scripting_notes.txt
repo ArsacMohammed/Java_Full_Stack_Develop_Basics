@@ -1,0 +1,5 @@
+Scripting elements :
+<%! public String s ="hello"; %>   --- declaration type  ----has java code to declare
+<%= s %>                           --- expression type   ----produce result
+   <%= new Integer (54) %>         --- gives output integer 54 in browser
+   <%= 24*2 %>					   --- gives output as 48  ---- do calculations(minor calc)
