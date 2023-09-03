@@ -43,3 +43,19 @@ The comment Scipting element :
 	<!-- out.print("comment");  -->    this will only prevent the printing part and if a method is called it will execute the code (like redirect to an another page.)
 	<!-- <% response.sendRedirect("http://google.com"); %>  -->  in this since there is no print ,it willexecute the code
 	but to avoid and makeit as a comment use <%-- <% response.sendRedirect("http://google.com"); %>  --%>
+
+
+
+
+To include a file using directive elememt : 
+<!--  For adding the static content  -->
+<%@ include file="file 1.txt" %> <%-- // using directive method --%>
+
+Using jsp:include
+<!--  for adding the dynamic content -->
+<jsp:include page ="file 2.txt"></jsp:include>
+
+
+To import a class into the jsp file use :
+<%@ page import ="java.util.Date" %>
+<%= new Date()  %>
