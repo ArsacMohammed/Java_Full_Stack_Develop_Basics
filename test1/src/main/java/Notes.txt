@@ -1,0 +1,7 @@
+Notes - Important 
+
+
+Configure Eclipse -
+
+Tomcat release 10 or later use Jakarta ee as its library and it was migrated from javax
+To configure it and remove the redlines under the jakarta in eclipse - check for java version and select tomcat server in Server Runtime inside the java Build path by clicking the properties of the main folder of the project .
