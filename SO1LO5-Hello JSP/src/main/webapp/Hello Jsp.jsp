@@ -8,12 +8,13 @@
 </head>
 <body>
 <h1>Hello JSP</h1>
-<%
-int x =10;
-for (int i=0;i<x;i++){
-	out.print("</br>");
-	out.print(i);
+<%! public int c=10; %>
+<%= c %>
+<% out.print("</br>"); %>
+<%! String hello(){
+return("hello welcome");
 }
 %>
+<%= hello() %>
 </body>
 </html>
