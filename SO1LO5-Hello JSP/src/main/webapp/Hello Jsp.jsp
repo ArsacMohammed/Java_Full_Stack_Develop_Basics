@@ -8,19 +8,12 @@
 </head>
 <body>
 <h1>Hello JSP</h1>
-<p>
-<%= "Nice weather" %>  
-<%= 7*5 %>
-<br>
-<%! public int v=90;%>
-<%! public String s="kite"; %>
-<%= s %>
-<%= v %>
-<%= new String("Arsac") %>
-<%= new Integer(76) %>
-<%= new Integer(66) %>
-<%= 24*2 %>
-</br>
-</p>
+<%
+int x =10;
+for (int i=0;i<x;i++){
+	out.print("</br>");
+	out.print(i);
+}
+%>
 </body>
 </html>

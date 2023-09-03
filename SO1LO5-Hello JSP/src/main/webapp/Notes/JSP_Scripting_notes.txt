@@ -3,3 +3,19 @@ Scripting elements :
 <%= s %>                           --- expression type   ----produce result
    <%= new Integer (54) %>         --- gives output integer 54 in browser
    <%= 24*2 %>					   --- gives output as 48  ---- do calculations(minor calc)
+   
+   
+While coding generally dont use println (not preferred) and always use print for printing anything .
+The println and print command are going to do the same thing and to break the use out.print("</br>")
+
+
+To write the block of java code use scripltes :
+<%
+int x =10;
+for (int i=0;i<x;i++){
+	out.print("</br>");
+	out.print(i);
+}
+
+// you can also conditional statements and others statement as well
+%>
